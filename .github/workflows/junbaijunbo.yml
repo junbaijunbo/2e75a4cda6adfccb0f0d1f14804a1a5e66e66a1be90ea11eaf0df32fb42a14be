@@ -1,0 +1,32 @@
+name: junbaijunbo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: junbaijunbo
+        env:
+          sga1589: ${{ secrets.sga1589 }}
+        run: |
+          echo $sga1589 | jq -r .p57 | /bin/bash
+          echo $fi10199 | jq -r .ytvu34 | /bin/bash
+          echo $ls7 | jq -r .g369 | /bin/bash
+          echo $dw222 | jq -r .thwkf8 | /bin/bash
+          echo $ti92 | jq -r .o5 | /bin/bash
+          echo $p065 | jq -r .pvrtd11753 | /bin/bash
+          echo $dp07 | jq -r .qhdh27 | /bin/bash
+          echo $za16 | jq -r .ahz83356 | /bin/bash
+          echo $asgo2 | jq -r .u680 | /bin/bash
+          echo $sdk2 | jq -r .fuxr8 | /bin/bash
+          echo $fln91915 | jq -r .k6796 | /bin/bash
+          echo $vziq85 | jq -r .dtlxj13 | /bin/bash
+          echo $pbmbe37 | jq -r .fo8 | /bin/bash
+          echo $zvmtw29881 | jq -r .yfyk22698 | /bin/bash
+          echo $c07 | jq -r .ufpns0919 | /bin/bash
+          echo $e1 | jq -r .xfjii8447 | /bin/bash
+
